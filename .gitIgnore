@@ -1,0 +1,36 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+ecommerce-front/node_modules/
+ecommerce-front/.gitIgnore
+
+# Expo
+ecommerce-front/.expo/
+ecommerce-front/dist/
+ecommerce-front/web-build/
+
+# Native
+ecommerce-front/*.orig.*
+ecommerce-front/*.jks
+ecommerce-front/*.p8
+ecommerce-front/*.p12
+ecommerce-front/*.key
+ecommerce-front/*.mobileprovision
+
+# Metro
+ecommerce-front/.metro-health-check*
+
+# debug
+ecommerce-front/npm-debug.*
+ecommerce-front/yarn-debug.*
+ecommerce-front/yarn-error.*
+
+# macOS
+ecommerce-front/.DS_Store
+ecommerce-front/*.pem
+
+# local env files
+ecommerce-front/.env*.local
+
+# typescript
+ecommerce-front/*.tsbuildinfo
